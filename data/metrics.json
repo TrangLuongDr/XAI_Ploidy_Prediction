@@ -1,0 +1,57 @@
+{
+  "cross_validation_accuracy_mean": 0.6649477100613055,
+  "test_accuracy": 0.7457627118644068,
+  "test_roc_auc": 0.8075771188978736,
+  "classification_report": {
+    "0": {
+      "precision": 0.7663551401869159,
+      "recall": 0.8677248677248677,
+      "f1-score": 0.8138957816377171,
+      "support": 189.0
+    },
+    "1": {
+      "precision": 0.691358024691358,
+      "recall": 0.5283018867924528,
+      "f1-score": 0.5989304812834224,
+      "support": 106.0
+    },
+    "accuracy": 0.7457627118644068,
+    "macro avg": {
+      "precision": 0.7288565824391369,
+      "recall": 0.6980133772586603,
+      "f1-score": 0.7064131314605697,
+      "support": 295.0
+    },
+    "weighted avg": {
+      "precision": 0.7394070241105459,
+      "recall": 0.7457627118644068,
+      "f1-score": 0.736654012696852,
+      "support": 295.0
+    }
+  },
+  "decision_threshold": 0.402962,
+  "features": [
+    "Maternal_age",
+    "Paternal_age",
+    "BMI",
+    "AMH",
+    "IVF_number",
+    "Biopsy_grade",
+    "Day5_grade",
+    "E2",
+    "P4",
+    "LH",
+    "Oocyte_number",
+    "Sperm_conc",
+    "Sperm_motility",
+    "tPNf",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t8",
+    "tM",
+    "tSB",
+    "tB"
+  ]
+}
